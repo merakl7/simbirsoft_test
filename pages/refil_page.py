@@ -8,7 +8,6 @@ class MoneyTransactions(BasePage):
     FILED_INPUT = (By.CSS_SELECTOR, "input.form-control.ng-pristine.ng-untouched.ng-invalid.ng-invalid-required")
     SENDING = (By.CSS_SELECTOR, "button.btn.btn-default")
     WITHDRAWAL_BUTTON = (By.XPATH, "//button[contains(text(), 'Withdrawl')]")
-    BALANCE = (By.CSS_SELECTOR, "div.center")
     BALANCE_ELEMENT = (By.CSS_SELECTOR, "strong.ng-binding:nth-of-type(2)")
 
     def deposit_money(self):
